@@ -3,7 +3,7 @@
 <ul *ngFor="let info of data.list" class="list">
     <div class="left">
         <li class="name"><i class="fa fa-map-pin" aria-hidden="true"></i>{{ info.name }}, Libya</li>
-        <a href="https://www.google.com/maps/@{{ info.coord.lat }},{{info.coord.lon }},9.48z" class="anchor"><li class="coord">Coord: {{ info.coord.lat }},{{info.coord.lon }}</li></a>
+        <a href="https://www.google.com/maps/@{{ info.coord.lat }},{{info.coord.lon }},9.48z" target="_blank" class="anchor"><li class="coord">Coord: {{ info.coord.lat }},{{info.coord.lon }}</li></a>
         <li class="temp">{{ getMath(info.main.temp) }}<span>&deg;C</span></li>
   </div>
   <div class="center">
@@ -12,7 +12,7 @@
         <li class="windSpeed">Wind Speed: {{ getMath(info.wind.speed) }}km/h</li>
   </div>
   <div class="right">
-        <a href="https://www.google.com/maps/@{{ info.coord.lat }},{{info.coord.lon }},9.48z"><li class="map"><i class="fa fa-map-o" aria-hidden="true"></i>View On Map</li></a>
+        <a href="https://www.google.com/maps/@{{ info.coord.lat }},{{info.coord.lon }},9.48z" target="_blank"><li class="map"><i class="fa fa-map-o" aria-hidden="true"></i>View On Map</li></a>
   </div> 
 </ul>
 </div>
