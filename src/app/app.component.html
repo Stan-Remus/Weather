@@ -1,8 +1,8 @@
 <img src="assets/images/background.png">
 <div class="container"> 
-<ul *ngFor="let info of data.list" class="test">
+<ul *ngFor="let info of data.list" class="list">
     <div class="left">
-        <li class="name"><i class="fa fa-map-pin" aria-hidden="true"></i>{{ info.name }}, Libia</li>
+        <li class="name"><i class="fa fa-map-pin" aria-hidden="true"></i>{{ info.name }}, Libya</li>
         <a href="https://www.google.com/maps/@{{ info.coord.lat }},{{info.coord.lon }},9.48z" class="anchor"><li class="coord">Coord: {{ info.coord.lat }},{{info.coord.lon }}</li></a>
         <li class="temp">{{ getMath(info.main.temp) }}<span>&deg;C</span></li>
   </div>
