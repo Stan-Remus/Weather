@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,900&family=Lato:wght@400;900&display=swap');
+
+ img{
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.fa-map-pin{
+    margin-right: 1vh;
+}
+.fa-map-o{
+    margin-right: 0.5vh;
+}
+.test{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 68.75rem;
+    height: 16rem;
+    background-image: linear-gradient(to top, #209cff 0%, #68e0cf 100%);
+    list-style-type: none;
+    margin-top: 3.5vh;
+    font-family: 'Lato', sans-serif;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 15px #00000014;
+    border: 1px solid #DEE2E6;
+    border-radius: 20px;
+    z-index: 1;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.center{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 7rem;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 5rem;
+    text-decoration: none;
+}
+.anchor{
+    text-decoration: none;  
+    color: black;
+}
+.coord{
+    font: normal normal normal 18px/26px Lato; 
+    margin-top: 0.5vh;  
+}
+.name{
+    font: normal normal 900 28px/34px Lato;
+    margin-top: 1vh;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 4rem;
+    background: #1EA7FC 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 12px #00000029;
+    border-radius: 8px;
+    color: white;
+}
+.text{
+    font: normal normal bold 16px/22px Lato;
+}
+.windSpeed{
+    font: normal normal normal 24px/34px Lato;
+    word-spacing: 3px;
+}
+.right a{
+    text-decoration: none;
+}
+.temp{
+    margin-top: 1.5vh;
+    text-align: left;
+    font: normal normal 900 52px/62px Lato;
+}
+.tempVariations{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    font: normal normal normal 42px/58px Lato;
+    margin-bottom: 2rem;
+}
